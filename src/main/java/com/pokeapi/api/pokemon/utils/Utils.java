@@ -13,7 +13,6 @@ public class Utils {
 
         List<ListPokemon> listPokemonLis = new ArrayList<ListPokemon>();
 
-
         resultsList.forEach(results ->{
             ListPokemon listPokemon = new ListPokemon();
             listPokemon.setId(splitUrlIdPokemon(results.getUrl()));

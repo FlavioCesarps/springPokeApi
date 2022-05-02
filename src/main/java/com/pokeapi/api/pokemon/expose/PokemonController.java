@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping(value = "/api/v1/pokemon")
 public class PokemonController {
     @Autowired

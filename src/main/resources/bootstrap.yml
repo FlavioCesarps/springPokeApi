@@ -1,5 +1,5 @@
 spring:
   application:
     name: api-pokemon
-  profiles:
-    active: local
+  ##profiles:
+    ##active: local
